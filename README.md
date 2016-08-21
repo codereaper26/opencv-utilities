@@ -1,2 +1,2 @@
 # opencv-utilities
-Collection of some of my personal scripts to make installing and using OpenCV easier
+Collection of some of my own personal scripts to make installing and using OpenCV easier.
