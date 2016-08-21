@@ -1,8 +1,10 @@
 #!/bin/bash
 #: Author      : Sandhan Sarma <sandhansmailbox@gmail.com>
-#: Description : A simple bash script to install OpenCV with python3 with 
-#:               examples on Ubuntu 16.04
-
+#: Description : A simple bash script to compile andinstall OpenCV 
+#:               with tesseract support for python3 with examples
+#:               on Ubuntu 16.04
+#: Note        : for compiling with tesseract, the tesseract script
+#:               must be in the same directory as this script
 # upgrade the system
 sudo apt update
 sudo apt upgrade -y
@@ -25,7 +27,7 @@ sudo apt install libatlas-base-dev gfortran -y
 sudo apt install doxygen -y
 
 #install tesseract
-sudo ~/projects/scripts/install-tesseract.sh
+sudo install-tesseract.sh
 
 #miscellaneous
 sudo apt install libeigen3-dev libtbb2 libtbb-dev libdc1394-22-dev
