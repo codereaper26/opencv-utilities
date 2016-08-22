@@ -3,8 +3,7 @@
 #: Description : A simple bash script to compile andinstall OpenCV 
 #:               with tesseract support for python3 with examples
 #:               on Ubuntu 16.04
-#: Note        : for compiling with tesseract, the tesseract script
-#:               must be in the same directory as this script
+
 # upgrade the system
 sudo apt update
 sudo apt upgrade -y
@@ -27,7 +26,7 @@ sudo apt install libatlas-base-dev gfortran -y
 sudo apt install doxygen -y
 
 #install tesseract
-sudo install-tesseract.sh
+sudo ./Tesseract-installer/install-tesseract.sh
 
 #miscellaneous
 sudo apt install libeigen3-dev libtbb2 libtbb-dev libdc1394-22-dev
